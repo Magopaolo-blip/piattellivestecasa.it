@@ -10,8 +10,8 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Piattelli Vestire Casa - Arredamento Tessile e Tendaggi a Roma">
   <meta property="og:description" content="Soluzioni e allestimenti tessili su misura per la tua casa, B&B, scenografie e immobili a Roma. Showroom Lungotevere Marzio 10 | Laboratorio Via Federico Tozzi 21.">
-  <meta property="og:url" content="https://magopaolo-blip.github.io/piattellivestecasa.it/">
-  <meta property="og:image" content="https://magopaolo-blip.github.io/piattellivestecasa.it/Prima-dopo.png">
+  <meta property="og:url" content="https://vestecasa.piattelli.it/">
+  <meta property="og:image" content="https://vestecasa.piattelli.it/Prima-dopo.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
@@ -29,7 +29,7 @@
         <img src="logo-vestirecasa.svg" alt="Piattelli Vestire Casa" class="logo-img">
       </div>
       <div class="header-contact">
-        <a href="https://wa.me/393737502033?text=Buongiorno,%20vorrei%20maggiori%20informazioni%20sulle%20vostre%20soluzioni%20per%20vestire%20casa." target="_blank" class="phone-link">
+        <a href="https://wa.me/393737502033?text=DILLO%20A%20PIATTELLI%0A%0ABuongiorno%2C%20vorrei%20maggiori%20informazioni%20sulle%20vostre%20soluzioni%20per%20vestire%20casa.%0A%0AContatto%20da%20vestecasa.piattelli.it" target="_blank" class="phone-link">
           💬 373 750 2033
         </a>
       </div>
@@ -48,14 +48,14 @@
         <!-- I PULSANTI CATEGORIA -->
         <div class="category-buttons-title">Scegli la tua tipologia:</div>
         <div class="category-buttons">
-          <a href="#contatti" class="btn btn-category">Abitazioni & Seconde Case</a>
-          <a href="#contatti" class="btn btn-category">B&B & Case Vacanza</a>
-          <a href="#contatti" class="btn btn-category">Agenzie Immobiliari & Home Staging</a>
-          <a href="#contatti" class="btn btn-category">Teatro & Scenografie</a>
+          <a href="#contatti" class="btn btn-category" data-tipologia="Privato / Prima o Seconda Casa">Abitazioni & Seconde Case</a>
+          <a href="#contatti" class="btn btn-category" data-tipologia="B&B / Case Vacanza / Struttura Ricettiva">B&B & Case Vacanza</a>
+          <a href="#contatti" class="btn btn-category" data-tipologia="Agenzia Immobiliare / Home Staging">Agenzie Immobiliari & Home Staging</a>
+          <a href="#contatti" class="btn btn-category" data-tipologia="Teatro & Scenografie">Teatro & Scenografie</a>
         </div>
 
         <div class="hero-banner-card">
-          <img src="Prima-dopo.png" alt="Piattelli Vestire Casa - Prima e Dopo">
+          <img src="Prima-dopo.webp" alt="Piattelli Vestire Casa - Prima e Dopo" fetchpriority="high">
           <div class="banner-overlay-text">
             <h3>SARTORIA TESSILE & ALLESTIMENTI IMMOBILI</h3>
             <p>Showroom a Lungotevere Marzio • Confezione a Via Tozzi • Posa Certificata</p>
@@ -76,7 +76,7 @@
             </div>
             <div class="form-group">
               <select id="formTipologia" required>
-                <option value="" disabled selected>Tipologia Cliente</option>
+                <option value="" disabled selected>Scegli il tipo di cliente / progetto *</option>
                 <option value="Privato / Prima o Seconda Casa">Privato / Prima o Seconda Casa</option>
                 <option value="B&B / Case Vacanza / Struttura Ricettiva">B&B / Case Vacanza / Struttura Ricettiva</option>
                 <option value="Agenzia Immobiliare / Home Staging">Agenzia Immobiliare / Home Staging</option>
@@ -87,7 +87,7 @@
             <div class="form-group">
               <textarea id="formMessaggio" rows="3" placeholder="Descrivi brevemente il tuo progetto o l'immobile da arredare..."></textarea>
             </div>
-            <button type="submit" class="btn btn-gold btn-block">Invia Richiesta via WhatsApp</button>
+            <button type="submit" class="btn btn-gold btn-block">Richiedi Consulenza su WhatsApp</button>
           </form>
         </div>
       </div>
@@ -122,15 +122,15 @@
       <h2 class="section-heading center">Realizzazioni e Allestimenti</h2>
       <div class="gallery-grid">
         <div class="gallery-card">
-          <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=600&q=80" alt="Arredamento Tessile Residenziale">
+          <img src="hero-banner.webp" alt="Arredamento tessile per prime e seconde case" loading="lazy">
           <div class="gallery-title">Prime & Seconde Case</div>
         </div>
         <div class="gallery-card">
-          <img src="Casa-vacanza.png" alt="Forniture Tessili B&B e Case Vacanza">
+          <img src="Casa-vacanza.webp" alt="Forniture tessili per B&B e case vacanza" loading="lazy">
           <div class="gallery-title">B&B, Case Vacanza & Strutture</div>
         </div>
         <div class="gallery-card">
-          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=80" alt="Tendaggi e Allestimenti Immobili">
+          <img src="Prima-dopo.webp" alt="Home staging e allestimenti tessili prima e dopo" loading="lazy">
           <div class="gallery-title">Home Staging & Immobili in Vendita/Affitto</div>
         </div>
       </div>
@@ -191,7 +191,7 @@
         
         <!-- SHOWROOM LUNGOTEVERE MARZIO 10 -->
         <div class="location-box highlight">
-          <img src="sede-lungotevere.png" alt="Showroom Piattelli Lungotevere Marzio" class="location-img" style="width: 100%; height: 220px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+          <img src="sede-lungotevere.webp" loading="lazy" alt="Showroom Piattelli Lungotevere Marzio" class="location-img">
           <span class="loc-badge">Showroom & Rappresentanza</span>
           <h3>Lungotevere Marzio, 10</h3>
           <p class="loc-sub">📍 Roma (Zona Prati / Centro)</p>
@@ -205,7 +205,7 @@
 
         <!-- LABORATORIO VIA FEDERICO TOZZI 21 -->
         <div class="location-box">
-          <img src="sede-viatozzi.png" alt="Laboratorio Piattelli Via Federico Tozzi" class="location-img" style="width: 100%; height: 220px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+          <img src="sede-viatozzi.webp" loading="lazy" alt="Laboratorio Piattelli Via Federico Tozzi" class="location-img">
           <span class="loc-badge dark">Laboratorio Artigianale & Confezione</span>
           <h3>Via Federico Tozzi, 21</h3>
           <p class="loc-sub">📍 Roma</p>
@@ -231,12 +231,18 @@
   </footer>
 
   <!-- BOTTONE WHATSAPP FLUTTUANTE -->
-  <a href="https://wa.me/393737502033?text=Buongiorno,%20vorrei%20maggiori%20informazioni%20sulle%20vostre%20soluzioni%20per%20vestire%20casa." class="whatsapp-sticky" target="_blank">
+  <a href="https://wa.me/393737502033?text=DILLO%20A%20PIATTELLI%0A%0ABuongiorno%2C%20vorrei%20maggiori%20informazioni%20sulle%20vostre%20soluzioni%20per%20vestire%20casa.%0A%0AContatto%20da%20vestecasa.piattelli.it" class="whatsapp-sticky" target="_blank">
     💬 Chatta con noi su WhatsApp
   </a>
 
-  <!-- SCRIPT PER INVIO FORM SU WHATSAPP -->
+  <!-- SCRIPT: scelta rapida + invio form su WhatsApp -->
   <script>
+    document.querySelectorAll('.btn-category[data-tipologia]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.getElementById('formTipologia').value = this.dataset.tipologia;
+      });
+    });
+
     document.getElementById('whatsappForm').addEventListener('submit', function(e) {
       e.preventDefault();
       
@@ -245,13 +251,15 @@
       const tipologia = document.getElementById('formTipologia').value;
       const messaggio = document.getElementById('formMessaggio').value;
       
-      let testoWA = `*Nuova richiesta da Sito Web*\n\n`;
-      testoWA += `👤 *Nome:* ${nome}\n`;
-      testoWA += `📞 *Telefono:* ${telefono}\n`;
-      testoWA += `🏷 *Tipologia:* ${tipologia}\n`;
+      let testoWA = `DILLO A PIATTELLI\n\n`;
+      testoWA += `Buongiorno, vorrei richiedere una consulenza per vestire casa.\n\n`;
+      testoWA += `Nome: ${nome}\n`;
+      testoWA += `Telefono: ${telefono}\n`;
+      testoWA += `Tipologia: ${tipologia}\n`;
       if (messaggio) {
-        testoWA += `📝 *Messaggio:* ${messaggio}`;
+        testoWA += `Progetto: ${messaggio}\n`;
       }
+      testoWA += `\nContatto da vestecasa.piattelli.it`;
       
       const url = `https://wa.me/393737502033?text=${encodeURIComponent(testoWA)}`;
       window.open(url, '_blank');
