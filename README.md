@@ -10,3 +10,6 @@
 
 ## Pubblicazione
 Estrarre lo ZIP, caricare i file nella radice del repository GitHub Pages e committare; mantenere `CNAME`.
+
+## Ottimizzazione spazi (08/10/2026)
+Ridotti padding tra sezioni, altezza delle foto in hero/galleria, spazi interni dei riquadri, KA International e sezione sedi. Via Tozzi rimane sede principale; Lungotevere showroom KA International; Prati Fiscali corner con foto definitiva. CSS responsive per desktop/tablet/mobile.
