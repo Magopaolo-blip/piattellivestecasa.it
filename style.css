@@ -205,3 +205,37 @@ img { max-width: 100%; }
   }
   .footer { padding: 20px 0 82px; }
 }
+
+/* Corner Piattelli presso Zarineh Tappeti */
+.corner-location { display:grid; grid-template-columns: 1.04fr 1fr; gap:28px; align-items:center; padding:22px; margin:0 0 26px; border-top:3px solid var(--gold-primary); }
+.corner-media { position:relative; min-width:0; }
+.corner-media .location-img { width:100%; height:auto; aspect-ratio: 1.65; object-fit:cover; display:block; border-radius:6px; }
+.image-disclaimer {display:block; color:#666; font-size:.72rem; margin-top:7px; line-height:1.4;}
+.corner-info h3 { font-size:clamp(1.4rem,2.4vw,1.95rem); line-height:1.25; margin:12px 0 8px;}
+.corner-info p {margin:10px 0; line-height:1.65;}
+.corner-entrance {border-left:3px solid var(--gold-primary); padding:9px 12px; background:#faf7f0;}
+.corner-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+.corner-actions .btn {text-align:center; text-decoration:none; padding:13px 15px;}
+.btn-outline-corner {background:#fff; color:var(--dark-primary); border:1px solid var(--dark-primary);}
+.btn-outline-corner:hover {background:#f4f1eb;}
+@media(max-width:900px){.corner-location {grid-template-columns:1fr; gap:16px;}}
+@media(max-width:600px){.corner-location{padding:15px;} .corner-actions{flex-direction:column;} .corner-actions .btn{width:100%;}}
+
+/* Gerarchia delle tre sedi: Tozzi prima e in evidenza */
+.locations-layout { display:flex; flex-direction:column; gap:20px; }
+.location-main { display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr); gap:25px; padding:20px; align-items:center; }
+.location-main-media { min-width:0; }
+.location-main .location-img { height:100%; min-height:345px; max-height:475px; margin:0; object-fit:cover; }
+.location-main-info h3 { font-size:clamp(1.5rem,2.5vw,2rem); margin:4px 0 8px; }
+.location-main-info p { line-height:1.6; }
+.locations-secondary { align-items:stretch; }
+.locations-secondary .location-box { display:flex; flex-direction:column; min-width:0; }
+.locations-secondary .location-img { height:auto; aspect-ratio:1.85/1; object-fit:cover; margin-bottom:12px; }
+.locations-secondary .location-box p { line-height:1.55; }
+.locations-secondary .image-disclaimer { margin:-4px 0 9px; }
+.location-actions { display:flex; flex-wrap:wrap; gap:9px; align-items:center; margin-top:auto; padding-top:16px; }
+.location-actions .btn { padding:11px 13px; font-size:.88rem; text-decoration:none; text-align:center; }
+.location-wa { background:#fff; border:1px solid var(--border-color); color:var(--dark-primary); }
+.location-wa:hover { background:#f8f5ee; }
+@media(max-width:900px){ .location-main { grid-template-columns:1fr; } .location-main .location-img { height:auto; min-height:0; max-height:none; aspect-ratio:1.85/1; } }
+@media(max-width:600px){ .location-main { padding:15px; } .location-actions { flex-direction:column; align-items:stretch; } .location-actions .btn { width:100%; } }
